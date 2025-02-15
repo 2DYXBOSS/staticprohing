@@ -1,20 +1,20 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+  <head>
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
     <title>Vortex Group</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
 
     <!-- Additional CSS Files -->
@@ -22,485 +22,718 @@
     <link rel="stylesheet" href="assets/css/templatemo-onix-digital.css">
     <link rel="stylesheet" href="assets/css/animated.css">
     <link rel="stylesheet" href="assets/css/owl.css">
-    <!--
+    <!-- CSS de Leaflet -->
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+
+<!-- JS de Leaflet -->
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+<!--
 
 TemplateMo 565 Onix Digital
 
 https://templatemo.com/tm-565-onix-digital
 
 -->
-</head>
+  </head>
 
 <body>
 
-    <!-- ***** Preloader End ***** -->
-
-    <!-- ***** Header Area Start ***** -->
-    <header class="header-area header-sticky wow slideInDown" data-wow-duration="0.75s" data-wow-delay="0s">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <nav class="main-nav">
-                        <!-- ***** Logo Start ***** -->
-                        <a href="index.html" class="logo">
-                            <img src="assets/images/logo.png" height="45px">
-                        </a>
-                        <!-- ***** Logo End ***** -->
-                        <!-- ***** Menu Start ***** -->
-                        <ul class="nav">
-                            <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
-                            <li class="scroll-to-section"><a href="#services">Services</a></li>
-                            <li class="scroll-to-section"><a href="#about">About</a></li>
-                            <li class="scroll-to-section"><a href="#portfolio">Portfolio</a></li>
-                            <li class="scroll-to-section"><a href="#video">Videos</a></li>
-                            <li class="scroll-to-section"><a href="#contact">Contact Us</a></li>
-                            <li class="scroll-to-section">
-                                <div class="main-red-button-hover"><a href="#contact">Voir les produits</a></div>
-                            </li>
-                        </ul>
-                        <a class='menu-trigger'>
-                            <span>Menu</span>
-                        </a>
-                        <!-- ***** Menu End ***** -->
-                    </nav>
-                </div>
-            </div>
-        </div>
-    </header>
-    <div id="video" class="our-videos section">
-        <div class="videos-left-dec">
-            <img src="assets/images/videos-left-dec.png" alt="">
-        </div>
-        <div class="videos-right-dec">
-            <img src="assets/images/videos-right-dec.png" alt="">
-        </div>
-        <div class="container">
-            <div class="row mb-4">
-                <div class="col-lg-6 offset-lg-3">
-                    <div class="section-heading">
-                        <h2 class="text-center">Nos <em>produits</em></h2>
-
-                    </div>
-                </div>
-            </div>
-
-            <div class="section-heading mt-4 text-cente">
-                <h2 class="text-start fs-4">1° Postes de travail & mobilité</h2>
-                <p style="text-transform: capitalize;font-weight: 500;" class="text-start"> Découvrez notre sélction de
-                    produits pour une mobilité tout-en-un !</p>
-                <div class="mb-3 ">
-
-
-                    <img src="assets/images/lenovo.png" style="width: 120px!important;" class="mt-4"
-                        style="width: 50px!important;box-shadow: 1px 1px 5px 1px rgb(197, 196, 196);" alt="">
-                    <p style="text-transform: capitalize;font-weight: 500;" class="text-start">Les avantages pour votre collaborateur</p>
-                    <p class="text-start" style="font-size: 0.8rem;">Il arrive qu'aujourd'hui , des collaborateurs ne mettent plus les pieds en entreprise . De ce fait , les entreprises se doivent de eur fournier les outils necessaires et adaptés à leurs modes de travail. Lenovo vous propose ses solutions e mettant à votre dispositions des produits legers puissants , performents , sécurisés et design .</p>
-                    <div class="row">
-                        <div class="col-md-3" >
-                            <div class="card border-0">
-                                <img src="assets/images/imrz.jpeg" class="mt-4" style="width: 150px!important;" alt="">
-                                <p style="text-transform: capitalize;font-weight: 500;" class="text-start"> ThinkBook
-                                </p>
-                                <p class="text-start mb-0" style="font-size: 0.8rem;">Pensé pour l'entreprise.</p>
-                                <p class="text-start mt-0" style="font-size: 0.8rem;">Ecran FHD 13,3" , 14" ou 15"</p>
-                                <p class="text-start mt-0" style="font-size: 0.8rem;">Processeur Intel Core ou AMD Ryzen
-                                </p>
-                                <p class="text-start mt-0" style="font-size: 0.8rem;">Fonction veille moderne</p>
-                                <p class="text-start mt-0" style="font-size: 0.8rem;">Windows 10 professional</p>
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="card border-0">
-                                <img src="assets/images/casquelenovo.jpeg" class="mt-4" style="width: 150px!important;"
-                                    alt="">
-                                <p style="text-transform: capitalize;font-weight: 500;" class="text-start"> Casque ThinkPad X1
-                                </p>
-                                <p class="text-start mb-0" style="font-size: 0.8rem;">La technologie de suppression active de bruit</p>
-                                <p class="text-start mt-0" style="font-size: 0.8rem;">Technologie ANC et ENC</p>
-                                <p class="text-start mt-0" style="font-size: 0.8rem;">Autonomie jusqu'a 14h
-                                </p>
-                                <p class="text-start mt-0" style="font-size: 0.8rem;">Conneexion Bluetooth ( 2 peritheriques blueetooth n simultané )  </p>
-                                <p class="text-start mt-0" style="font-size: 0.8rem;">Port USB</p>
-                                <p class="text-start mt-0" style="font-size: 0.8rem;">Confortable et réglabe</p>
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="card border-0">
-                                <img src="assets/images/tabletleno.jpeg" class="mt-4" style="width: 150px!important;"
-                                    alt="">
-                                <p style="text-transform: capitalize;font-weight: 500;" class="text-start"> ThinkSmart View
-                                </p>
-                                <p class="text-start mb-0" style="font-size: 0.8rem;">La solution personnelle et dediée pour la collaboration</p>
-                                <p class="text-start mt-0" style="font-size: 0.8rem;">Certifié Microsoft Teams</p>
-                                <p class="text-start mt-0" style="font-size: 0.8rem;">Ecran tactile IPS HD 8"
-                                </p>
-                                <p class="text-start mt-0" style="font-size: 0.8rem;">Camera 5MP + micro 360°</p>
-                                <p class="text-start mt-0" style="font-size: 0.8rem;">Haut-parleurs integré 10W </p>
-                                <p class="text-start mt-0" style="font-size: 0.8rem;">Bluetooth 4.2 ( LE ) , WLAN 802.11 AC</p>
-                                <p class="text-start mt-0" style="font-size: 0.8rem;">Telephone de bureau VOIP </p>
-                                <p class="text-start mt-0" style="font-size: 0.8rem;">1KG , 142 X 263 X 125 - 111 mm ( L X P X H )</p>
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="card border-0">
-                                <img src="assets/images/nanolenovo.jpeg" class="mt-4" style="width: 150px!important;" alt="">
-                                <p style="text-transform: capitalize;font-weight: 500;" class="text-start"> ThinkPad X1 Nano
-                                </p>
-                                <p class="text-start mb-0" style="font-size: 0.8rem;">Un monstre de productivité </p>
-                                <p class="text-start mt-0" style="font-size: 0.8rem;">Poids <  1KG</p>
-                                <p class="text-start mt-0" style="font-size: 0.8rem;">Ecran 2K 13"
-                                </p>
-                                <p class="text-start mt-0" style="font-size: 0.8rem;">Processeur Intel Core , 13 ieme generation</p>
-                                <p class="text-start mt-0" style="font-size: 0.8rem;">Windows 10 professional</p>
-                                <p class="text-start mt-0" style="font-size: 0.8rem;">Jusqu'a 13h d'autonomie</p>
-
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="card border-0">
-                                <img src="assets/images/telelenov.jpeg" class="mt-4" style="width: 150px!important;" alt="">
-                                <p style="text-transform: capitalize;font-weight: 500;" class="text-start"> ThinkVison M14
-                                </p>
-                                <p class="text-start mb-0" style="font-size: 0.8rem;">La solution moderne de productivité mobile</p>
-                                <p class="text-start mt-0" style="font-size: 0.8rem;">Ecran 14" FHD USB-C X 2 </p>
-                                <p class="text-start mt-0" style="font-size: 0.8rem;">570 g Inclinaison support : -5° à 90°
-                                </p>
-                                <p class="text-start mt-0" style="font-size: 0.8rem;">Low Blue Light</p>
-
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="mb-3 ">
-
-
-                    <img src="assets/images/dell.png" style="width: 70px!important;" class="mt-4 pb-4"
-                        style="width: 50px!important;box-shadow: 1px 1px 5px 1px rgb(197, 196, 196);" alt="">
-                    <p style="text-transform: capitalize;font-weight: 500;" class="text-start">Gamme Dell Latitude , Une nouvelle ère pour l'intelligence </p>
-                    <p class="text-start" style="font-size: 0.8rem;">La gamme Latitude d'ordinateur portable et 2 en 1 regroupe les PC professionnels les plus intelligentes du monde doté d'une IA integrée. Elle inclut l'outil Dell Optimizer avec la nouvelle fonctionnalité ExpressConnect , ExpressCharge , ExpressSign-in , ExpressResponse , une technologie allant jusqu'a la platee-forme Intel Evo , ComfortViw Plus et une experience de conference remarquable .</p>
-                    <div class="row">
-                        <div class="col-md-3">
-                            <div class="card border-0">
-                                <img src="assets/images/delll9000.jpeg" class="mt-4" style="width: 150px!important;" alt="">
-                                <p style="text-transform: capitalize;font-weight: 500;" class="text-start"> Latitude Serie 9000 2 en 1
-                                </p>
-                                <p class="text-start mb-0" style="font-size: 0.8rem;">Offrez à vos collaborateurs la possiblité de travailler partout à la 5G</p>
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="card border-0">
-                                <img src="assets/images/dell700.jpeg" class="mt-4" style="width: 150px!important;"
-                                    alt="">
-                                <p style="text-transform: capitalize;font-weight: 500;" class="text-start"> Latitude Serie 7000 2 en 1
-                                </p>
-                                <p class="text-start mb-0" style="font-size: 0.8rem;">Ils s'adaptent à votre mode de travail , quels que soient le lieu et l'heure où vous ls utilisez</p>
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="card border-0 pt-3">
-                                <img src="assets/images/dellthun.jpeg" class="mt-4" style="width: 150px!important;"
-                                    alt="">
-                                <p style="text-transform: capitalize;font-weight: 500;padding-top: 70px;" class="text-start"> Dell Thunderbolt
-                                </p>
-                                <p class="text-start mb-0 " style="font-size: 0.8rem;">Station d'acceuil , Dock D19TBS </p>
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="card border-0">
-                                <img src="assets/images/delltele.jpeg" class="mt-4" style="width: 150px!important;" alt="">
-                                <p style="text-transform: capitalize;font-weight: 500;" class="text-start"> Ecran 24"
-                                </p>
-                                <p class="text-start mb-0" style="font-size: 0.8rem;">RJ45 USB-C ,Camera , Haut-parleurs c2422HE </p>
-
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="card border-0">
-                                <img src="assets/images/dellsours.jpeg" class="mt-4" style="width: 150px!important;" alt="">
-                                <p style="text-transform: capitalize;font-weight: 500;" class="text-start">Dell Pro KMS52221W Clavier & Souris sans fill
-                                </p>
-
-
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="mb-3 ">
-
-
-                    <img src="assets/images/ply.png" style="width: 150px!important;" class="mt-4 pb-0"
-                        style="width: 50px!important;box-shadow: 1px 1px 5px 1px rgb(197, 196, 196);" alt="">
-                    <p style="text-transform: capitalize;font-weight: 500;" class="text-start">Des solutions mobiles comme vous !</p>
-                    <p class="text-start" style="font-size: 0.8rem;">Où que vous soyez , vos echanges professionnels doivent etre agreables , naturels et fluides . Poly vous propose le materiel adapté a vos besoins , pour plus de fexibilité , peu importe l'endroit .</p>
-                    <p class="text-start" style="font-size: 0.8rem;">Elles vous offrent une qualité audio optimale , grace notallent a une suppression du bruit inegalée , pour vous permettre d'etree plus productif ete de beneficier d'un son excellent et ce , peu importe où vous etes .</p>
-                    <div class="row">
-                        <div class="col-md-3">
-                            <div class="card border-0">
-                                <img src="assets/images/polyp5.jpeg" class="mt-4" style="width: 150px!important;" alt="">
-                                <p style="text-transform: capitalize;font-weight: 500;padding-top: 50px;" class="text-start"> Poly P5
-                                </p>
-                                <p class="text-start mb-0" style="font-size: 0.8rem;">Webcam professionnelle</p>
-                                <p class="text-start mb-0" style="font-size: 0.8rem;">Optique et camera exceptionnelle</p>
-                                <p class="text-start mb-0" style="font-size: 0.8rem;">Microphon intégré</p>
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="card border-0">
-                                <img src="assets/images/polyblack.jpeg" class="mt-4" style="width: 150px!important;"
-                                    alt="">
-                                <p style="text-transform: capitalize;font-weight: 500;" class="text-start"> Blackwire 3210 / 3220
-                                </p>
-                                <p class="text-start mb-0" style="font-size: 0.8rem;">Micro-casque stéreo</p>
-                                <p class="text-start mb-0" style="font-size: 0.8rem;">Connexion via USB</p>
-                                <p class="text-start mb-0" style="font-size: 0.8rem;">Windows et Mac</p>
-                                <p class="text-start mb-0" style="font-size: 0.8rem;">Egalisateur dynamique</p>
-                                <p class="text-start mb-0" style="font-size: 0.8rem;">Sortie stéreo Hi-Fi</p>
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="card border-0 ">
-                                <img src="assets/images/polyvoyaficu.jpeg" class="mt-4" style="width: 150px!important;" alt="">
-                                <p style="text-transform: capitalize;font-weight: 500;" class="text-start">Voyager 4220
-                                </p>
-                                <p class="text-start mb-0 " style="font-size: 0.8rem;">Micro-casque Bluetooth</p>
-                                <p class="text-start mb-0 " style="font-size: 0.8rem;">12h d'autonomie</p>
-                                <p class="text-start mb-0 " style="font-size: 0.8rem;">Anti-bruits</p>
-                                <p class="text-start mb-0 " style="font-size: 0.8rem;">Commande appels</p>
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="card border-0">
-                                <img src="assets/images/polyvoyaficu.jpeg" class="mt-4" style="width: 150px!important;" alt="">
-                                <p style="text-transform: capitalize;font-weight: 500;" class="text-start">Voyager Focus UC
-                                </p>
-                                <p class="text-start mb-0 " style="font-size: 0.8rem;">Micro-casque stéreo Bluetooth</p>
-                                <p class="text-start mb-0 " style="font-size: 0.8rem;">Anti-bruits</p>
-                                <p class="text-start mb-0 " style="font-size: 0.8rem;">Reglages intelligents</p>
-
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="card border-0">
-                                <img src="assets/images/plysinc.jpeg" class="mt-4" style="width: 150px!important;" alt="">
-                                <p style="text-transform: capitalize;font-weight: 500;" class="text-start">Poy Sync 20
-                                </p>
-                                <p class="text-start mb-0 " style="font-size: 0.8rem;">Haut-parleurs de conference</p>
-                                <p class="text-start mb-0 " style="font-size: 0.8rem;">Conectivité Bluetooth smartphone PC</p>
-                                <p class="text-start mb-0 " style="font-size: 0.8rem;">3 microphones en full duplex</p>
-
-
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="mb-4 ">
-
-
-                    <img src="assets/images/micros.png" style="width: 200px!important;" class="mt-4 pb-0"
-                        style="width: 50px!important;box-shadow: 1px 1px 5px 1px rgb(197, 196, 196);" alt="">
-                    <p style="text-transform: capitalize;font-weight: 500;" class="text-start">Du travail au Rendez-vous sur le terrain</p>
-                    <p class="text-start" style="font-size: 0.8rem;">Avez vous la bonne solution pour travailler efficacement ? Avec Microsoft Surface et Microsoft 365 , communiquez , collaborez , sécurisez . "Télétravail" , La messagerie instantanée , vous communiquez en temps réel avec vos collèguees . Indiquez rapidement votre statut pour faciliter les interactions . Facilitez le travil collaboratif sur un meme document . Vous pouvz le modifier simultanement et le partagez-le avec vos fournisseurs . Word , Excel et PowerPoint sont des applications de travail collaboratif . conference et rendez-vous depuis votre calenndrier et video conference avec plus de 1000 participants .</p>
-
-                    <div class="row">
-                        <div class="col-md-3">
-                            <div class="card border-0">
-                                <img src="assets/images/surfacepro.jpeg" class="mt-4" style="width: 150px!important;" alt="">
-                                <p style="text-transform: capitalize;font-weight: 500;padding-top: 50px;" class="text-start"> Poly P5
-                                </p>
-                                <p class="text-start mb-0" style="font-size: 0.8rem;">Webcam professionnelle</p>
-                                <p class="text-start mb-0" style="font-size: 0.8rem;">Optique et camera exceptionnelle</p>
-                                <p class="text-start mb-0" style="font-size: 0.8rem;">Microphon intégré</p>
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="card border-0">
-                                <img src="assets/images/surfaceduo.jpeg" class="mt-4" style="width: 150px!important;"
-                                    alt="">
-                                <p style="text-transform: capitalize;font-weight: 500;" class="text-start"> Blackwire 3210 / 3220
-                                </p>
-                                <p class="text-start mb-0" style="font-size: 0.8rem;">Micro-casque stéreo</p>
-                                <p class="text-start mb-0" style="font-size: 0.8rem;">Connexion via USB</p>
-                                <p class="text-start mb-0" style="font-size: 0.8rem;">Windows et Mac</p>
-                                <p class="text-start mb-0" style="font-size: 0.8rem;">Egalisateur dynamique</p>
-                                <p class="text-start mb-0" style="font-size: 0.8rem;">Sortie stéreo Hi-Fi</p>
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="card border-0 ">
-                                <img src="assets/images/surfacego.jpeg" class="mt-4" style="width: 150px!important;" alt="">
-                                <p style="text-transform: capitalize;font-weight: 500;padding-top: 50px;" class="text-start">Voyager 4220
-                                </p>
-                                <p class="text-start mb-0 " style="font-size: 0.8rem;">Micro-casque Bluetooth</p>
-                                <p class="text-start mb-0 " style="font-size: 0.8rem;">12h d'autonomie</p>
-                                <p class="text-start mb-0 " style="font-size: 0.8rem;">Anti-bruits</p>
-                                <p class="text-start mb-0 " style="font-size: 0.8rem;">Commande appels</p>
-                            </div>
-                        </div>
-                      
-
-                    </div>
-                </div>
-                <h2 class="text-start fs-4 " style="padding-top: 50px;">2° Sécurité, réseaux & téléphonie</h2>
-                <p style="text-transform: capitalize;font-weight: 500;" class="text-start"> Découvrez notre sélction de
-                    produits pour une mobilité tout-en-un !</p>
-                    <div class="mb-3 ">
-
-
-                        <img src="assets/images/cisco.jpeg" style="width: 150px!important;" class="mt-4"
-                            style="width: 50px!important;box-shadow: 1px 1px 5px 1px rgb(197, 196, 196);" alt="">
-                        <p style="text-transform: capitalize;font-weight: 500;" class="text-start">Une protection robuste pour les entreprise centre de données</p>
-                        <p class="text-start" style="font-size: 0.8rem;">Détectez et bloquez les menaces plus rapidement. Beneficiez d'une visibilt sur le trafic chiffré dans votre centre de données et votre entreprise.</p>
-                        <div class="row">
-                            <div class="col-md-3" >
-                                <div class="card border-0">
-                                    <img src="assets/images/cisco1140.jpeg" class="mt-4" style="width: 150px!important;" alt="">
-                                    <p style="text-transform: capitalize;font-weight: 500;" class="text-start"> Puissance de feu de Cisco 1140
-                                    </p>
-                                    <p class="text-start mb-0" style="font-size: 0.8rem;">Protegez vos enntreprisees de taille moyenne contre les attaquants eet bloquez les logiciels malveillants</p>
-                                    <p class="text-start mt-0" style="font-size: 0.8rem;">Debut du pare-feu : 3,3 Gbit/s</p>
-                                    <p class="text-start mt-0" style="font-size: 0.8rem;">Debit IPS : 3,5 Gbit/s
-                                    </p>
-                                    <p class="text-start mt-0" style="font-size: 0.8rem;">Debit VPN IPSec : 1,4 Gbit/s</p>
-                                    <p class="text-start mt-0" style="font-size: 0.8rem;">Nombre maximal  de pairs VPN : 400</p>
-                                </div>
-                            </div>
-                            <div class="col-md-3">
-                                <div class="card border-0">
-                                    <img src="assets/images/cisic4115.jpeg" class="mt-4" style="width: 150px!important;" alt="">
-                                    <p style="text-transform: capitalize;font-weight: 500;padding-top: 50px;" class="text-start"> Puissance de feu de Cisco 4115
-                                    </p>
-                                    <p class="text-start mb-0" style="font-size: 0.8rem;">L'ajout de puissance supplementaire aux votre pare-feux du centre de données signifie un debit d'inspection plus élévé</p>
-                                    <p class="text-start mt-0" style="font-size: 0.8rem;">Debut du pare-feu : 33 Gbit/s</p>
-                                    <p class="text-start mt-0" style="font-size: 0.8rem;">Debit IPS : 33 Gbit/s
-                                    </p>
-                                    <p class="text-start mt-0" style="font-size: 0.8rem;">Debit VPN IPSec : 12,5 Gbit/s</p>
-                                    <p class="text-start mt-0" style="font-size: 0.8rem;">Nombre maximal  de pairs VPN : 15 000</p>
-                                </div>
-                            </div>
-                            <div class="col-md-3">
-                                <div class="card border-0">
-                                    <img src="assets/images/cisoc1150.jpeg" class="mt-4" style="width: 150px!important;" alt="">
-                                    <p style="text-transform: capitalize;font-weight: 500;padding-top: 30px;" class="text-start"> Puissance de feu de Cisco 1150
-                                    </p>
-                                    <p class="text-start mb-0" style="font-size: 0.8rem;">Augmentez la productivité de vos succusales grace a un pare-feu de haute performance</p>
-                                    <p class="text-start mt-0" style="font-size: 0.8rem;">Debut du pare-feu : 4,9 Gbit/s</p>
-                                    <p class="text-start mt-0" style="font-size: 0.8rem;">Debit IPS : 6,1 Gbit/s
-                                    </p>
-                                    <p class="text-start mt-0" style="font-size: 0.8rem;">Debit VPN IPSec : 2,4 Gbit/s</p>
-                                    <p class="text-start mt-0" style="font-size: 0.8rem;">Nombre maximal de pairs VPN : 800</p>
-                                </div>
-                            </div>
-                           
-    
-                        </div>
-                    </div>
-                    <div class="mb-3 ">
-
-
-                        <img src="assets/images/form.png" style="width: 150px!important;" class="mt-4"
-                            style="width: 50px!important;box-shadow: 1px 1px 5px 1px rgb(197, 196, 196);" alt="">
-                        <p style="text-transform: capitalize;font-weight: 500;" class="text-start">Solution DE cybersécurité innovante</p>
-                        <p class="text-start" style="font-size: 0.8rem;">Nous proposons des solutions uniques pour offir aux clients une protection éprouvée , performante et intelligente sur une surface d'attaque en constante expansion. Seule la solution Fortinet Security Fabric peut offir une securité sans compromis pour repondre aux defis de securite les plus critiques , que ce soit dans les environnements réseau , applicatifs , cloud ou mobiles . " Protection contre les cyberattaques " , " Ameliorer la confidentialité " , "Assurer la fiablité"</p>
-                        <div class="row">
-                            <div class="col-md-3" >
-                                <div class="card border-0">
-                                    <img src="assets/images/fornt200.jpeg" class="mt-4" style="width: 150px!important;" alt="">
-                                    <p style="text-transform: capitalize;font-weight: 500;" class="text-start"> Fortinet FortiGate 200E - UTM
-                                    </p>
-                                    
-                                </div>
-                            </div>
-                            <div class="col-md-3">
-                                <div class="card border-0">
-                                    <img src="assets/images/fortiga30.jpeg" class="mt-4" style="width: 150px!important;" alt="">
-                                    <p style="text-transform: capitalize;font-weight: 500;" class="text-start"> FortiGate FG-30E-BDL Firewall
-                                    
-                                </div>
-                            </div>
-                            <div class="col-md-3">
-                                <div class="card border-0">
-                                    <img src="assets/images/fornt200.jpeg" class="mt-4" style="width: 150px!important;" alt="">
-                                    <p style="text-transform: capitalize;font-weight: 500;" class="text-start"> FortiGate 400E
-                                    </p>
-                                </div>
-                            </div>
-                           
-    
-                        </div>
-                    </div>
-                    <div class="mb-3 ">
-
-
-                        <img src="assets/images/tplink.png" style="width: 150px!important;" class="mt-4"
-                            style="width: 50px!important;box-shadow: 1px 1px 5px 1px rgb(197, 196, 196);" alt="">
-                        <p style="text-transform: capitalize;font-weight: 500;" class="text-start">Tueur de zone blache , Les solutions LTE ideale si mauvaise conexion ADSL</p>
-                        <p class="text-start" style="font-size: 0.8rem;">La solution professionnelle pour un large eventail d'industries</p>
-                        <div class="row">
-                            <div class="col-md-3">
-                                <div class="card border-0">
-                                    <img src="assets/images/omada.jpeg" class="mt-4" style="width: 150px!important;" alt="">
-                                    <p style="text-transform: capitalize;font-weight: 500;" class="text-start"> Hostpost mobile 5G Wi-Fi 6
-                                    </p>
-                                    <p class="text-start mb-0" style="font-size: 0.8rem;">Commutateur PoE+ géré L3 polyvalent , offrant un routage L3 , une connectivité rapide de 10 Gbit/s , un empilage et des alimentations rebondantes , ideal pour les applications de couche de convergences. Il dispose d'un budget PoE de 720W , de 24 ports PoE + Gigabit RJ45 , de 4  emplacements SFP+ 10 Gbit/s et d'un empilage physique . Avec une gestion centralisée , une securite reseaux des PME , des eentreprise et des FAI</p>
-                                </div>
-                            </div>
-                            <div class="col-md-3" >
-                                <div class="card border-0">
-                                    <img src="assets/images/gisd.jpeg" class="mt-4" style="width: 150px!important;" alt="">
-                                    <p style="text-transform: capitalize;font-weight: 500;" class="text-start"> Commutateur Omada SG6428XHP
-                                    </p>
-                                    <p class="text-start mb-0" style="font-size: 0.8rem;">rebondantes , ideal pour les applications de couche de convergences. Il dispose d'un budget PoE de 720W , de 24 ports PoE + Gigabit RJ45 , de 4  emplacements SFP+ 10 Gbit/s et d'un emp</p>
-                                </div>
-                            </div>
-                            <div class="col-md-3">
-                                <div class="card border-0">
-                                    <img src="assets/images/gwifi.jpeg" class="mt-4" style="width: 150px!important;" alt="">
-                                    <p style="text-transform: capitalize;font-weight: 500;" class="text-start"> Hostpost 4G/5G
-                                        <p class="text-start mb-0" style="font-size: 0.8rem;">Commutateur PoE+ géré L3 polyvalent , offrant un routage L3 , une connectivité rapide de 10 Gbit/s , un empilage et des alimentations centralisée , une securite reseaux des PME , des eentreprise </p>
-                                </div>
-                            </div>
-                         
-                            <div class="col-md-3">
-                                <div class="card border-0">
-                                    <img src="assets/images/rtse.jpeg" class="mt-4" style="width: 150px!important;" alt="">
-                                    <p style="text-transform: capitalize;font-weight: 500;" class="text-start">Routeur sans fil N 300 Mps TP Link TL-WR840N
-                                    </p>
-                                    <p class="text-start mb-0" style="font-size: 0.8rem;">Wi-Fi 4 </p>
-                                    <p class="text-start mb-0" style="font-size: 0.8rem;">IEE 802.11n/n/g 2,4 GHz </p>
-                                </div>
-                            </div>
-                            <div class="col-md-3">
-                                <div class="card border-0">
-                                    <img src="assets/images/tlx.jpeg" class="mt-4" style="width: 150px!important;" alt="">
-                                    <p style="text-transform: capitalize;font-weight: 500;" class="text-start"> TL-WR940N Routur sans fil N450 Mbps
-                                    </p>
-                                    <p class="text-start mb-0" style="font-size: 0.8rem;">Commutateur PoE+ géré L3 polyvalent , offrant un routage L3 , une connectivité rapide de 10 Gbit/s , un empilage et des alimentations rebondantes , ideal pour les applications de couche de convergences. Il dispose d'un budget PoE de 720W , de 24 ports PoE + Gigabit RJ45 , de 4  emplacements SFP+ 10 Gbit/s et d'un empilage physique . Avec une gestion centralisée , une securite reseaux des PME , des eentreprise et des FAI</p>
-                                </div>
-                            </div>
-                            <div class="col-md-3">
-                                <div class="card border-0">
-                                    <img src="assets/images/soruis.jpeg" class="mt-4" style="width: 150px!important;" alt="">
-                                    <p style="text-transform: capitalize;font-weight: 500;" class="text-start"> Souris sans fil Suretrack
-                                    </p>
-                                    <p class="text-start mb-0" style="font-size: 0.8rem;">Capteur optique hautes performences meme sur les verres , la granite , les surfaces laquées , le marbe et les bois</p>
-                                    <p class="text-start mb-0" style="font-size: 0.8rem;">Double connectivité sans fil 2,4 GHz et Bluetooth 3.0/5.0</p>
-                                    <p class="text-start mb-0" style="font-size: 0.8rem;">Compatible Windows, MacOS et Chrome et Android</p>
-                                </div>
-                            </div>
-                           
-    
-                        </div>
-                    </div>
-            </div>
-
-        </div>
-
-
-
+  <!-- ***** Preloader Start ***** -->
+  <div id="js-preloader" class="js-preloader">
+    <div class="preloader-inner">
+      <span class="dot"></span>
+      <div class="dots">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
     </div>
-</body>
+  </div>
+  <!-- ***** Preloader End ***** -->
 
+  <!-- ***** Header Area Start ***** -->
+  <header class="header-area header-sticky wow slideInDown" data-wow-duration="0.75s" data-wow-delay="0s">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <nav class="main-nav">
+            <!-- ***** Logo Start ***** -->
+            <a href="index.html" class="logo">
+              <img src="assets/images/logo.png" height="45px">
+            </a>
+            <!-- ***** Logo End ***** -->
+            <!-- ***** Menu Start ***** -->
+            <ul class="nav">
+              <li class="scroll-to-section"><a href="#top" class="active">Acceuil</a></li>
+              <li class="scroll-to-section"><a href="#about">A propos</a></li>
+              <li class="scroll-to-section"><a  href="#services">Services</a></li>
+              <li class="scroll-to-section"><a href="#portfolio">Produits</a></li>
+              <li class="scroll-to-section"><a href="#video">Partenaires</a></li> 
+              <li class="scroll-to-section"><a href="#map">Contact nous</a></li> 
+              <li class="scroll-to-section"><div class="main-red-button-hover"><a href="#contact">Voir les produits</a></div></li> 
+            </ul>        
+            <a class='menu-trigger'>
+                <span>Menu</span>
+            </a>
+            <!-- ***** Menu End ***** -->
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- ***** Header Area End ***** -->
+
+  <div class="main-banner" id="top">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="row">
+            <div class="col-lg-6 align-self-center">
+              <div class="owl-carousel owl-banner">
+                <div class="item header-text">
+                  <h6>Welcome to Vortex Group</h6>
+                  <h2>Votre <em>Satisfaction</em> le but de de notre <span>existence</span>?</h2>
+                  <p>Ici vous trouverez des produits de qualité et de bonne qualité.</p>
+                  <div class="down-buttons">
+                    <div class="main-blue-button-hover">
+                      <a href="#contact">Voir les produits</a>
+                    </div>
+                    <div class="call-button">
+                      <a href="#"><i class="fa fa-phone"></i> + 225 01 02 03 40</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="item header-text">
+                  <h6>Welcome to Vortex Group</h6>
+                  <h2>Votre <em>Satisfaction</em> le but de de notre <span>existence</span>?</h2>
+                  <p>Ici vous trouverez des produits de qualité et de bonne qualité.</p>
+                  <div class="down-buttons">
+                    <div class="main-blue-button-hover">
+                      <a href="#contact">Voir les produits</a>
+                    </div>
+                    <div class="call-button">
+                      <a href="#"><i class="fa fa-phone"></i> + 225 01 02 03 40</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="item header-text">
+                  <h6>Welcome to Vortex Group</h6>
+                  <h2>Votre <em>Satisfaction</em> le but de de notre <span>existence</span>?</h2>
+                  <p>Ici vous trouverez des produits de qualité et de bonne qualité.</p>
+                  <div class="down-buttons">
+                    <div class="main-blue-button-hover">
+                      <a href="#contact">Voir les produits</a>
+                    </div>
+                    <div class="call-button">
+                      <a href="#"><i class="fa fa-phone"></i> + 225 01 02 03 40</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="about" class="about-us section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 align-self-center">
+          <div class="left-image">
+            <img src="assets/images/about-left-image.png" alt="Two Girls working together">
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="section-heading">
+            <h2>Qui sommes-nous ? <em> Vortex Group </em> &amp; <span> son </span> existence</h2>
+            <p class="mt-3">Nous sommes nées d'une collaboration de plusieurs ingenieurs ivoiriens ayant acquis plusieurs années d'experiences aux seins des prestigieuses societe IT , BTP et Transport .</p>
+           <div class="row ">
+              <div class="col-lg-4">
+                <div class="fact-item">
+                  <div class="count-area-content">
+                    <div class="p-0 m-0" >
+                      <i class="bi bi-terminal-split"></i>
+                    </div>
+                  
+                    <p>Integrateur et fournisseur de solutions IT</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="fact-item">
+                  <div class="count-area-content">
+                    <div class="p-0 m-0" >
+                      <i class="bi bi-layer-backward"></i>
+                    </div>
+                  
+                    <p>Distructeur / Revendeur de produits TIC</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="fact-item">
+                  <div class="count-area-content">
+                    <div class="p-0 m-0" >
+                      <i class="bi bi-journal-richtext"></i>
+                    </div>
+                    <p>Constructeur et rénovateur de bâtiments</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="fact-item">
+                  <div class="count-area-content gap-0">
+                    <div class="p-0 m-0" >
+                      <i class="bi bi-projector"></i>
+                    </div>
+                  
+                    <p>Fournisseur de services à valeur ajoutée</p>
+                  </div>
+                </div>
+              </div>
+             
+            </div> 
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="services" class="our-services section">
+    <div class="services-right-dec">
+      <img src="assets/images/services-right-dec.png" alt="">
+    </div>
+    <div class="container">
+      <div class="services-left-dec">
+        <img src="assets/images/services-left-dec.png" alt="">
+      </div>
+      <div class="row">
+        <div class="col-lg-6 offset-lg-3">
+          <div class="section-heading">
+            <h2>Que <em>savons</em> nous faire <span> ? </span></h2>
+            <span>services que vous pouvez trouver</span>
+          </div>
+          
+        </div>
+        <p class="text-center mb-3">Nous sommes au cœur de l'évolution t du marché dela technologie en mettant à votr disposition un large gamme de matériels et solutions à la pointe , pour préparer , planifier , construire , gérer et optimiser vos projets afin d'accroitre votre productivité t vous satisfaire .</p>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="owl-carousel owl-services">
+            <div class="item">
+              
+
+              <i class="bi bi-check"></i>
+              <p>Installation d systèmes informatiqus , de virtualisation et stockage . </p>
+            </div>
+            <div class="item">
+              <i class="bi bi-check"></i>
+              <p>Implemntation infrastructure réseaux et sécurité infromatique </p>
+            </div>
+            <div class="item">
+              <i class="bi bi-check"></i>
+              <p>Câblage réseu informatique et télécoms</p>
+            </div>
+            <div class="item">
+              <i class="bi bi-check"></i>
+              <p>Analyse des données par des experts</p>
+            </div>
+            <div class="item">
+              <i class="bi bi-check"></i>
+              <p>Development d'application web et mobilee</p>
+            </div>
+            <div class="item">
+              <i class="bi bi-check"></i>
+              <p>Installation et parametrage de systeme et telephonie d'entreprise numerique et IP </p>
+            </div>
+            <div class="item">
+              <i class="bi bi-check"></i>
+              <p>Mise en place de solution de visio-conferences et call-center</p>
+            </div>
+            <div class="item">
+              <i class="bi bi-check"></i>
+              <p>Solution de mobilité et wireless </p>
+            </div>
+            <div class="item">
+              <i class="bi bi-check"></i>
+              <p>Fourniture d'equipements bureautiques et materiels informatiques </p>
+            </div>
+            <div class="item">
+              <i class="bi bi-check"></i>
+              <p>Implemntation infrastructure réseaux et sécurité infromatique </p>
+            </div>
+            <div class="item">
+              <i class="bi bi-check"></i>
+              <p>Installation parametrage de systeme alarme incendie</p>
+            </div>
+            <div class="item">
+              <i class="bi bi-check"></i>
+              <p>Fourniture et installation cameras</p>
+            </div>
+           
+            <div class="item">
+              <i class="bi bi-check"></i>
+              <p>Installation de serrures electroniques</p>
+            </div>
+           
+            <div class="item">
+              <i class="bi bi-check"></i>
+              <p>Mise en place de clotures electriques</p>
+            </div>
+           
+            <div class="item">
+              <i class="bi bi-check"></i>
+              <p>Rénovation et construction et batiments</p>
+            </div>
+           
+            <div class="item">
+              <i class="bi bi-check"></i>
+              <p>Vente location de vehicule de derniere generation pour votre confort optimal</p>
+            </div>
+           
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="portfolio" class="our-portfolio section">
+    <div class="portfolio-left-dec">
+      <img src="assets/images/portfolio-left-dec.png" alt="">
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 offset-lg-3">
+          <div class="section-heading">
+            <h2>Nos <em>produits</em> &amp; mises à <span>disposition</span></h2>
+            <span>de nos partenaires</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="owl-carousel owl-portfolio" >
+            <div class="item">
+              <a class="thumb" type="button" href="/templates/lenovo.html" >
+                <img src="assets/images/portfolio-01.jpg" alt="">
+                <div class="hover-effect" style="background-color: red!important">
+             
+                    <img src="assets/images/hik.png" style="width: 100%!important;border-radius: none;" alt="">
+                   
+                
+                </div>
+              </a>
+            </div>
+            <div class="item">
+              <div class="thumb" type="button" href="/templates/lenovo.html">
+                <img src="assets/images/portfolio-02.jpg" alt="">
+                <div class="hover-effect" >
+             
+                  <img src="assets/images/pythond.png" style="width: 100%!important;border-radius: none;" alt="">
+                 
+              
+              </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="thumb" type="button" href="/templates/lenovo.html">
+                <img src="assets/images/portfolio-03.jpg" alt="">
+                <div class="hover-effect" >
+             
+                  <img src="assets/images/lenovo.png" style="width: 100%!important;border-radius: none;" alt="">
+                 
+              
+              </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="thumb" type="button" href="/templates/lenovo.html">
+                <img src="assets/images/portfolio-04.jpg" alt="">
+                <div class="hover-effect" >
+             
+                  <img src="assets/images/salto.png" style="width: 100%!important;border-radius: none;" alt="">
+                 
+              
+              </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="thumb" type="button" href="/templates/lenovo.html">
+                <img src="assets/images/portfolio-01.jpg" alt="">
+                <div class="hover-effect" >
+             
+                  <img src="assets/images/yeastar.jpeg" style="width: 100%!important;border-radius: none;" alt="">
+                 
+              
+              </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="thumb" type="button" href="/templates/lenovo.html">
+                <img src="assets/images/portfolio-02.jpg" alt="">
+                <div class="hover-effect" >
+             
+                  <img src="assets/images/hps.png" style="width: 100%!important;border-radius: none;" alt="">
+                 
+              
+              </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="thumb" type="button" href="/templates/lenovo.html">
+                <img src="assets/images/portfolio-03.jpg" alt="">
+                <div class="hover-effect" >
+             
+                  <img src="assets/images/avaya.png" style="width: 100%!important;border-radius: none;" alt="">
+                 
+              
+              </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="thumb" type="button" href="/templates/lenovo.html">
+                <img src="assets/images/portfolio-04.jpg" alt="">
+                <div class="hover-effect" >
+             
+                  <img src="assets/images/alhua.png" style="width: 100%!important;border-radius: none;" alt="">
+                 
+              
+              </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="thumb" type="button" href="/templates/lenovo.html">
+                <img src="assets/images/portfolio-01.jpg" alt="">
+                <div class="hover-effect" >
+             
+                  <img src="assets/images/cisco.jpeg" style="width: 100%!important;border-radius: none;" alt="">
+                 
+              
+              </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="thumb" type="button" href="/templates/lenovo.html">
+                <img src="assets/images/portfolio-02.jpg" alt="">
+                <div class="hover-effect" >
+             
+                  <img src="assets/images/dell.png" style="width: 100%!important;border-radius: none;" alt="">
+                 
+              
+              </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="thumb" type="button" href="/templates/lenovo.html">
+                <img src="assets/images/portfolio-03.jpg" alt="">
+                <div class="hover-effect" >
+             
+                  <img src="assets/images/veeam.jpeg" style="width: 100%!important;border-radius: none;" alt="">
+                 
+              
+              </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="thumb" type="button" href="/templates/lenovo.html">
+                <img src="assets/images/portfolio-04.jpg" alt="">
+                <div class="hover-effect" >
+             
+                  <img src="assets/images/rucky.png" style="width: 100%!important;border-radius: none;" alt="">
+                 
+              
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+
+
+ 
+
+  <div id="video" class="our-services section mb-4">
+    <div class="services-right-dec">
+      <img src="assets/images/services-right-dec.png" alt="">
+    </div>
+    <div class="container">
+      <div class="services-left-dec">
+        <img src="assets/images/services-left-dec.png" alt="">
+      </div>
+      <div class="row">
+        <div class="col-lg-6 offset-lg-3">
+          <div class="section-heading">
+            <h2>Nos <em>partenairese </em> strategiques </h2>
+            <span>vous pouvez trouver</span>
+          </div>
+          
+        </div>
+      
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="row">
+            <div class="col-md-2 partse">
+              
+
+              <img src="assets/images/hik.png" style="width: 100px!important;" alt="">
+            </div>
+            <div class="col-md-2 partse">
+              
+
+              <img src="assets/images/pythond.png" style="width: 100px!important;" alt="">
+            </div>
+            <div class="col-md-2 partse">
+              
+
+              <img src="assets/images/lenovo.png" style="width: 100px!important;" alt="">
+            </div>
+            <div class="col-md-2 partse">
+              
+
+              <img src="assets/images/salto.png" style="width: 100px!important;" alt="">
+            </div>
+            <div class="col-md-2 partse">
+              
+
+              <img src="assets/images/yeastar.jpeg" style="width: 100px!important;" alt="">
+            </div>
+             <div class="col-md-2" >
+              
+
+              <img src="assets/images/hps.png" style="width: 100px!important;" alt="">
+            </div>
+            <div class="col-md-2 partse">
+              
+
+              <img src="assets/images/ply.png" style="width: 100px!important;" alt="">
+            </div>
+            <div class="col-md-2 partse">
+              
+
+              <img src="assets/images/form.png" style="width: 100px!important;" alt="">
+            </div>
+            <div class="col-md-2 partse">
+              
+
+              <img src="assets/images/dell.png" style="width: 50px!important;" alt="">
+            </div>
+            <div class="col-md-2 partse">
+              
+
+              <img src="assets/images/avaya.png" style="width: 100px!important;" alt="">
+            </div>
+            <div class="col-md-2 partse">
+              
+
+              <img src="assets/images/alhua.png" style="width: 100px!important;" alt="">
+            </div>
+             <div class="col-md-2" >
+              
+
+              <img src="assets/images/cisco.jpeg" style="width: 100px!important;" alt="">
+            </div>
+            <div class="col-md-2 partse">
+              
+
+              <img src="assets/images/avaya.png" style="width: 100px!important;" alt="">
+            </div>
+            <div class="col-md-2 partse">
+              
+
+              <img src="assets/images/rric.png" style="width: 100px!important;" alt="">
+            </div>
+            <div class="col-md-2 partse">
+              
+
+              <img src="assets/images/lg.png" style="width: 100px!important;" alt="">
+            </div>
+            <div class="col-md-2 partse">
+              
+
+              <img src="assets/images/jabra.png" style="width: 100px!important;" alt="">
+            </div>
+            <div class="col-md-2 partse">
+              
+
+              <img src="assets/images/grands.jpeg" style="width: 100px!important;" alt="">
+            </div>
+            <div class="col-md-2 partse">
+              
+
+              <img src="assets/images/tplink.png" style="width: 100px!important;" alt="">
+            </div>
+            <div class="col-md-2 partse">
+              
+
+              <img src="assets/images/dlink.png" style="width: 100px!important;" alt="">
+            </div>
+            <div class="col-md-2 partse">
+              
+
+              <img src="assets/images/micros.png" style="width: 250px!important;" alt="">
+            </div>
+            <div class="col-md-2 partse">
+              
+
+              <img src="assets/images/orav.png" style="width: 100px!important;" alt="">
+            </div>
+            <div class="col-md-2 partse">
+              
+
+              <img src="assets/images/veeam.jpeg" style="width: 100px!important;" alt="">
+            </div>
+            <div class="col-md-2 partse">
+              
+
+              <img src="assets/images/rucky.png" style="width: 100px!important;" alt="">
+            </div>
+            
+           
+           
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container ">
+
+ 
+  <div class=" row mt-4 mb-4" style="padding-top: 150px;padding-bottom: 30px;">
+    <div class="col-lg-6 offset-lg-3">
+      <div class="section-heading text-center">
+        <h2>Contactez <em>nous </em>  </h2>
+        <span>Nos coordonnées de contact</span>
+      </div>
+      
+    </div>
+  
+  </div>
+</div>
+<div id="map" class="container" style="height: 300px;width: 100%;"></div>
+
+  <div class="footer-dec m-0" >
+    <img src="assets/images/footer-dec.png" alt="">
+  </div>
+
+  <footer>
+    <div class="container">
+      
+      <div class="row">
+        <div class="col-lg-3">
+          <div class="about footer-item">
+            <div class="logo">
+              <a href="#"><img src="assets/images/logo.png" alt="Onix Digital TemplateMo"></a>
+            </div>
+            <a href="#">info@vortex-group.net</a>
+            <ul>
+              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fa fa-behance"></i></a></li>
+              <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="services footer-item">
+            <h4>La direction generale</h4>
+            <ul>
+              <li><a href="#">(+225) 01 53 48 88 84</a></li>
+              <li><a href="#">(+225) 05 05 42 82 82</a></li>
+              <li><a href="#">(+225) 07 07 14 25 86</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="community footer-item">
+            <h4>La direction commerciale</h4>
+            <ul>
+              <li><a href="#">(+225) 07 59 85 73 64</a></li>
+              <li><a href="#">(+225) 05 66 54 11 55</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="subscribe-newsletters footer-item">
+            <h4>Site web</h4>
+            <p>www.vortex-group.net</p>
+           
+          </div>
+        </div>
+        <div class="col-lg-12">
+          <div class="copyright">
+            <p>Copyright © 2021 Vortex Group Co., Ltd. All Rights Reserved. 
+            <br>
+            Designed by <a rel="nofollow" href="https://templatemo.com" title="free CSS templates">Vortex Group</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- Scripts -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/owl-carousel.js"></script>
+  <script src="assets/js/animation.js"></script>
+  <script src="assets/js/imagesloaded.js"></script>
+  <script src="assets/js/custom.js"></script>
+
+  <script>
+  // Acc
+    $(document).on("click", ".naccs .menu div", function() {
+      var numberIndex = $(this).index();
+
+      if (!$(this).is("active")) {
+          $(".naccs .menu div").removeClass("active");
+          $(".naccs ul li").removeClass("active");
+
+          $(this).addClass("active");
+          $(".naccs ul").find("li:eq(" + numberIndex + ")").addClass("active");
+
+          var listItemHeight = $(".naccs ul")
+            .find("li:eq(" + numberIndex + ")")
+            .innerHeight();
+          $(".naccs ul").height(listItemHeight + "px");
+        }
+    });
+
+
+    // Coordonnées de l'emplacement
+    var lat = 5.357;
+        var lng = -4.008;
+
+        // Initialise la carte et centre la vue
+        var map = L.map('map').setView([lat, lng], 13);
+
+        // Ajoute la couche OpenStreetMap
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; OpenStreetMap contributors'
+        }).addTo(map);
+
+        // Ajoute un marqueur
+        var marker = L.marker([lat, lng]).addTo(map)
+            .bindPopup('Cliquez pour ouvrir Google Maps')
+            .openPopup();
+
+        // Redirige vers Google Maps au clic
+        function openGoogleMaps() {
+            window.location.href = `https://www.google.com/maps?q=${lat},${lng}`;
+        }
+
+        // Ajoute un événement de clic sur le marqueur et la carte
+        marker.on('click', openGoogleMaps);
+        map.on('click', openGoogleMaps);
+  </script>
+</body>
 </html>
