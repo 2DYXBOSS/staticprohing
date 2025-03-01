@@ -646,6 +646,9 @@ header
   .header-area .main-nav:before {
     display: none;
   }
+  .header-area {
+    height: auto!important;
+  }
 }
 
 @media (max-width: 992px) {
