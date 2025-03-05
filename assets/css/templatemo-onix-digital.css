@@ -663,6 +663,7 @@ header
 }
 
 @media (max-width: 767px) {
+  
   .background-header .main-nav .nav {
     margin-top: 80px !important;
   }
@@ -768,6 +769,9 @@ header
 }
 
 @media (min-width: 767px) {
+  .pt-20 {
+    padding-top: 100px!important;
+  }
   .header-area .main-nav .nav {
     display: flex !important;
   }
